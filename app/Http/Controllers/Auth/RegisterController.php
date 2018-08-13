@@ -109,7 +109,8 @@ class RegisterController extends Controller
             //create a new user and provider
             $user = User::firstOrCreate(
                 ['email' => $socialUser->getEmail()],
-                ['name' => $socialUser->getName()]
+                ['name' => $socialUser->getName()],
+                ['avatar'=>$socialUser->getAvatar()]
             );
 
             $user->socialProviders()->create(

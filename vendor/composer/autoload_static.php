@@ -314,7 +314,14 @@ class ComposerStaticInitd272212cb1f5ee2cb5a23cd14115d5a4
     );
 
     public static $classMap = array (
+        'CreateArchivoPersonal' => __DIR__ . '/../..' . '/database/migrations/2018_08_13_172742_create_ArchivoPersonal.php',
+        'CreateBibliotecaArchivo' => __DIR__ . '/../..' . '/database/migrations/2018_08_13_174158_create_BibliotecaArchivo.php',
+        'CreateBibliotecaVideos' => __DIR__ . '/../..' . '/database/migrations/2018_08_13_173829_create_BibliotecaVideos.php',
+        'CreateClientesPartners' => __DIR__ . '/../..' . '/database/migrations/2018_08_13_174917_create_ClientesPartners.php',
+        'CreateDireccionUsuario' => __DIR__ . '/../..' . '/database/migrations/2018_08_13_171053_create_DireccionUsuario.php',
+        'CreateFormacionAcademica' => __DIR__ . '/../..' . '/database/migrations/2018_08_13_172356_create_FormacionAcademica.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreateRedesSociales' => __DIR__ . '/../..' . '/database/migrations/2018_08_13_173035_create_RedesSociales.php',
         'CreateSocialProvidersTable' => __DIR__ . '/../..' . '/database/migrations/2016_10_22_125113_create_social_providers_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
